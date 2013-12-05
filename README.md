@@ -19,6 +19,7 @@ I built my first computer when I was 11 years old, and that basic fram has laste
   * A VMWare ESXi cluster based on old server hardware runs all of this (BTW if you need large amounts of compute, the Dell c6100 is *awesome*
 
 
+
   My passion is not only limited to hardware, and I'm currently activley following Ghost, a node.js based blogging platform, and trying to teach myself a lot about node and Jquery. Django really inerests me as s web framework due to its python roots, but i know you guys arent into framewors, so I won't really go into that.
   
   if you need any info about me, feel free to ask!
