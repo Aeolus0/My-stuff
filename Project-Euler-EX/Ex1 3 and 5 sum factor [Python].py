@@ -12,7 +12,7 @@ def what_inc(term_num):
 def sum_num(final_num):
     global temp
     count = -1
-    for incr in range(1,final_num + 1):
+    for incr in xrange(1,final_num + 1):
         count = count + 1
         if count <= 5:
             temp = sum_array[len(sum_array) - 1]
