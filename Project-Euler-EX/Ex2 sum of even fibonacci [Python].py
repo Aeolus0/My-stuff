@@ -18,4 +18,5 @@ def add_fib(final_number):
         next_fib()
     return total_fib
 
-print add_fib(4000000)
+inp = long(raw_input("enter final number here: "))
+print add_fib(inp)

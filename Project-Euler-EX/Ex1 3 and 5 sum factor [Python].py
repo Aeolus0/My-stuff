@@ -1,4 +1,3 @@
-"""Ex 1 Euler, find the sum of all factors of the number divisible by 3 or 5"""
 sum_array = [3]
 
 def what_inc(term_num):
