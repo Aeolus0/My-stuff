@@ -10,7 +10,7 @@ def next_fib():
 def add_fib(final_number):
     total_fib = 0
     global fib
-    for iterator in xrange(0,final_number + 1):
+    for iterator in range(0,final_number + 1):
         if final_number <= fib[len(fib) - 1]:
             break
         if fib[len(fib) - 1] % 2 == 0:
@@ -18,5 +18,5 @@ def add_fib(final_number):
         next_fib()
     return total_fib
 
-inp = long(raw_input("enter final number here: "))
-print add_fib(inp)
+inp = int(input("enter final number here: "))
+print(add_fib(inp))
