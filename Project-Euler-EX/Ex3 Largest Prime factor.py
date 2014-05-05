@@ -1,3 +1,4 @@
+''' Given a number, find its prime factors'''
 __author__ = 'dhash'
 import math
 
