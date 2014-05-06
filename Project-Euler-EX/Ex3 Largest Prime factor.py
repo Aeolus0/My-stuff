@@ -5,7 +5,7 @@ import math
 
 def make_primes_factors(lim):
     prime_array = []
-    for is_ele in range(3, int(math.sqrt(lim)) + 1, 2):
+    for is_ele in range(3, lim + 1, 2):
         if lim % is_ele == 0:
             prime_array.append(is_ele)
     for elem in prime_array:
